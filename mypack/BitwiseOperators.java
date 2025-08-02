@@ -2,7 +2,7 @@ package mypack;
 import java.util.*;
 public class BitwiseOperators {
 	public static void main(String[] args) {
-		// Demonstrate bitwise AND, OR, XOR, and complement operators on two numbers.
+		
 		System.out.println("Enter two numbers");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
@@ -23,3 +23,4 @@ public class BitwiseOperators {
 		System.out.println("The complement of b is: "+complementB);
 }
 }
+
